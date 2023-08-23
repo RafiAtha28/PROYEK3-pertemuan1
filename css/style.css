@@ -1,0 +1,77 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(6,1fr);
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-item {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.kuning {
+    grid-area: 1/1/1/1;
+    background-color: yellow;
+}
+
+.hitam {
+   grid-area: 1/2/1/5;
+   background-color: black;
+}
+
+.hijau {
+    grid-area: 2/1/2/1;
+    background-color: limegreen;
+}
+
+.coklat {
+    grid-area: 2/2/2/2;
+    background-color: brown;
+}
+
+.merah {
+    grid-area: 3/1/3/1;
+    background-color: red;
+}
+
+.putih {
+    grid-area: 3/2/3/2;
+    background-color: white;
+}
+
+.pink {
+    grid-area: 2/3/4/4;
+    background-color: pink;
+}
+
+.biru {
+    grid-area: 2/4/2/4;
+    background-color: rgb(0, 183, 255);
+}
+
+.biru-tua {
+    grid-area: 4/1/7/1;
+    background-color: rgb(38, 0, 255);
+}
+
+.abu {
+    grid-area: 4/2/6/4;
+    background-color: rgb(133, 137, 134);
+}
+
+.orange {
+    grid-area: 7/2/6/4;
+    background-color: rgb(252, 126, 0);
+}
+
+.ungu {
+    grid-area: 3/4/7/4;
+    background-color: rgb(154, 32, 167);
+}
+/* font color */
+.c-white {color: white;}
